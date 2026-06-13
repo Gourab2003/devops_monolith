@@ -15,7 +15,7 @@ app.use('*', cors());
 
 app.get('/', (c) => {
   return c.json({
-    message: "Task monolith api running",
+    message: "Task monolith api running after ci/cd",
   });
 });
 
