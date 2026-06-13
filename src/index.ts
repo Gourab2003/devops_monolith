@@ -15,7 +15,7 @@ app.use('*', cors());
 
 app.get('/', (c) => {
   return c.json({
-    message: "Task monolith api v5",
+    message: "Task monolith api v50",
   });
 });
 
